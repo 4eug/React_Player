@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
+import { useDispatch, useSelector } from 'react-redux';
 import { Error, Loader, SongCard } from '../components';
 import { genres } from '../assets/constants';
-import { useDispatch, useSelector } from 'react-redux';
 // eslint-disable-next-line import/named
 import { useGetTopChartsQuery } from '../redux/services/shazamCore';
 
