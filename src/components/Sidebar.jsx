@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { RiCloseLine } from 'react-icons/ri';
-import { HiOutlineHashtag, HiOutlineHome, HiOutlineMenu, HiOutlinePhotograph, HiOutlineUserGroup } from 'react-icons/hi';
+import { HiOutlineMenu } from 'react-icons/hi';
 
 import { logo } from '../assets';
 import { links } from '../assets/constants';
